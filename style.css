@@ -40,7 +40,7 @@ h1 {
     width: 350px;
     height: 130px;
     border-radius: 15px;
-    outline: 2px solid ;
+    outline: 3px solid #18188c ;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -77,4 +77,14 @@ button {
     height: 55px;
     border-radius: 15px;
     font-size: 20px;
+    background-color: #484871;
+}
+
+#ac,
+#sign {
+    background-color: #4a4ae0;
+}
+
+#equal {
+    background-color: lightblue;
 }
