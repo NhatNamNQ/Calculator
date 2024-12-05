@@ -36,15 +36,43 @@ h1 {
 }
 
 .screen {
-    margin: 25px 0px;
+    margin-top: 25px;
     width: 350px;
-    height: 100px;
+    height: 130px;
     border-radius: 15px;
     outline: 2px solid ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#display {
+    padding: 20px 20px 0 30px;
+    padding-bottom: 0;
+    height: 40px;
+    font-size: 30px;
+}
+#result {
+    text-align: end;
+    padding: 20px;
+    padding-right: 30px;
+    height: 70px;
+    font-size: 35px;
 }
 
 .buttons {
-    outline: 2px solid;
     width: 350px;
-    height: 390px;
+    height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+button {
+    width: 80px;
+    height: 55px;
+    border-radius: 15px;
+    font-size: 20px;
 }
