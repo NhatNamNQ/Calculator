@@ -1,1 +1,3 @@
 # Calculator
+The project includes the calculator can calculate some simple functions of math like add, subtract, ...
+This project coded by HTML, CSS, JavaScript
